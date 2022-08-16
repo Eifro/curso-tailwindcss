@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendiendo Tailwind CSS</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1>Hola Mundito!</h1>
+    <!-- aplicando tailwind / background color / hover / color / weight / padding / rounded / responsive -->
+    <button
+      class="bg-blue-500 sm:bg-orange-500 md:bg-red-500 lg:bg-yellow-500 lg:hover:bg-red-500 xl:bg-pink-500 2xl:bg-green-500 hover:bg-blue-700 text-white font-bold px-3 py-2 rounded"
+    >
+      Click me!
+    </button>
+    <!-- preflight -->
+    <h1>Preflight h1</h1>
+    <h2>Preflight h2</h2>
+    <h3>Preflight h3</h3>
+    <h4>Preflight h4</h4>
+    <h5>Preflight h5</h5>
+    <h6>Preflight h6</h6>
+    <!-- container / text-color / text-align / rounded -->
+    <div class="container mx-auto">
+      <p class="text-blue-700 border border-red-500 text-center uppercase rounded-xl w-48 mx-auto font-bold">
+        Container Look
+      </p>
+      <!-- margin / padding -->
+      <p class="border border-blue-800 mt-5 p-3 text-emerald-700 text-justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore
+        harum quod accusantium amet recusandae nam accusamus, corrupti natus cum
+        eius non fugit maxime! Adipisci est fugit quos magnam consectetur.
+      </p>
+      <!-- font-size -->
+      <p class="border border-green-500 mt-5 p-3 text-xl text-purple-500 bg-zinc-200">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, ipsum?</p>
+      <!-- text-shadow -->
+      <p class="shadow-md p-3 mt-5">Lorem ipsum dolor sit.</p>
+    </div>
+  </body>
+</html>
