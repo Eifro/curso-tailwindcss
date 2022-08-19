@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dash with Tailwind CSS</title>
+  <!-- CDN Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container mx-auto mt-5">
+  <!-- grid template columns / grid template rows / responsive -->
+  <div class="grid grid-cols-2 grid-rows-4 mx-5 sm:mx-0 sm:grid-cols-4 sm:grid-rows-2 gap-5 text-white font-bold text-center">
+    <div class="bg-red-500">A</div>
+    <div class="bg-red-500">B</div>
+    <div class="bg-red-500">C</div>
+    <div class="bg-red-500">D</div>
+    <div class="bg-red-500 col-span-2 row-span-2 sm:row-span-2 sm:col-start-3 sm:row-start-1">E</div>
+  </div>
+</body>
+</html>
